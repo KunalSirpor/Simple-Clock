@@ -1,0 +1,48 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/1994605.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    font-family: Orbitron;
+    font-size: 50px;
+    color: #404040;
+    
+  }
+.clock{
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translateX(-50%) translateY(-50%);
+			  color: #404040;
+			  font-size: 120px;
+			  padding: 0px 5px 0px 5px;
+   
+}
+.button1 {
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 9px #999;
+    position: relative;
+    top: 20px;
+    right: 20px;
+  }
+
+.button1:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.page{
+    text-align: center;
+}
